@@ -1,0 +1,7 @@
+{
+  "name": "primeraBlank",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

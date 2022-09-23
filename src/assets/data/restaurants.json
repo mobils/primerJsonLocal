@@ -1,0 +1,22 @@
+{ "estado":1,
+"restaurantes":  
+[  
+      {
+          "idRestaurante":"2",
+         "nombre":"Cuynes",
+         "opinion":"Diseño bonito pero nunca tienen los vinos de la carta",
+         "latitud":"41.608708", 
+         "longitud":"2.289943",
+         "tipoCocina":"Catalana"
+      },
+      {
+          "idRestaurante":"3",
+         "nombre":"Portalet",
+         "opinion":"Platos de degustación asequibles",
+         "latitud":"41.607308", 
+         "longitud":"2.287563",
+         "tipoCocina":"Catalana"
+      }
+   ]
+}
+

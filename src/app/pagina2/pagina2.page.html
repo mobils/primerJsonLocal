@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Pagina2 amb json</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row *ngFor="let item of data; index as i">
+      <ion-col size="1">{{ item.idRestaurante }}</ion-col>
+      <ion-col size="3"> {{ item.nombre }}</ion-col>
+      <ion-col size="3"> {{ item.opinion }}</ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-card *ngFor="let item of data; index as i">
+
+    <ion-item href="#" class="ion-activated">
+      <ion-icon name="wifi" slot="start"></ion-icon>
+      <ion-label>{{ item.idRestaurante }}</ion-label>
+    </ion-item>
+  
+    <ion-item href="#">
+      <ion-icon name="wine" slot="start"></ion-icon>
+      <ion-label>{{ item.nombre }}</ion-label>
+    </ion-item>
+  
+    <ion-item class="ion-activated">
+      <ion-icon name="warning" slot="start"></ion-icon>
+      <ion-label>{{ item.opinion }}</ion-label>
+    </ion-item>
+
+</ion-card>
+</ion-content>
+
